@@ -84,7 +84,7 @@ print(regions_list)
 
 
 
-# Нахождение региона с наивысшей рождаемостью в 2014 году
+# 10 Нахождение региона с наивысшей рождаемостью в 2014 году
 region_with_highest_birth_rate_2014 = selected_table[selected_table['2014'] == selected_table['2014'].max()]
 highest_birth_rate_region_2014 = region_with_highest_birth_rate_2014.iloc[0]['Регіон']
 
