@@ -78,8 +78,9 @@ regions_above_average = selected_table[selected_table['2019'] > average_birth_ra
 regions_list = regions_above_average.iloc[:, 8].tolist()
 
 # Вывод списка регионов
-print("Регіони з вищим рівнем народжуваності в 2019 році за середнім по Україні:")
+print("Середня народжуваність в 2019 році по Україні:")
 print (average_birth_rate_ukraine_2019)
+print("Регіони з вищим за середній рівнем народжуваності в 2019 році за середнім по Україні:")
 print(regions_list)
 
 
