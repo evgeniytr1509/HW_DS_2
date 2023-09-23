@@ -90,7 +90,7 @@ region_with_highest_birth_rate_2014 = selected_table[selected_table['2014'] == s
 highest_birth_rate_region_2014 = region_with_highest_birth_rate_2014.iloc[0]['Регіон']
 
 print("Регіон з найвищою народжуваністю в 2014 році:")
-print(highest_birth_rate_region_2014)
+#print(highest_birth_rate_region_2014)
 print(region_with_highest_birth_rate_2014)
 
 
